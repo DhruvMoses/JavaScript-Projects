@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 242, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.panel-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.panel-items h2{
+    font-weight: 500;
+    font-size: 27px;
+}
+#panel-top{
+    width: 100%;
+    height: 100px;
+    padding: 0px  30% ;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(44, 69, 47);
+}
+.box{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(18, 119, 57);
+    font-weight: 500;
+    font-size: 22px;
+}
+#panel-bottom{
+    width: 100%;
+    height: calc(100% - 100px); 
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 69, 47);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: auto;
+}
+.bubble:hover{
+    background-color: rgb(67, 128, 67);
+    cursor: pointer;
+}
